@@ -1,0 +1,6 @@
+img {
+    border-radius: 20px;
+    outline: 2px solid darkblue;
+    outline-offset: 2px;
+    margin: 5px;
+}
