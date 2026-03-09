@@ -1,17 +1,13 @@
 import './App.css';
-import { Com } from './components/organisms/com/com';
-import { Footer } from './components/moleclues/footer/footer';
-import { NavBar } from './components/moleclues/navBar/navBar';
+import { Template } from './components/templates/template';
 
 function App() {
 
   return (
-    <div className='page'>
-      <NavBar />
-      <Com />
-      <Footer />
+    <div>
+      <Template />
     </div>
   )
 }
 
-export default App
+export default App;
