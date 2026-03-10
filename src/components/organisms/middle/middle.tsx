@@ -13,15 +13,6 @@ export const Middle = () => {
             <Interactions />
             <Likesline />
             <DescriptionLine />
-
-            {/* <div style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                flexDirection: "row",
-            }}>
-                <Button Icon={FavoriteIcon} color="#115688" bgColor="white" size={10} />
-            </div> */}
         </div>
     )
 }
