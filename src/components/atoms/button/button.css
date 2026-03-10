@@ -3,9 +3,7 @@
     height: 30px;
     border: none;
     cursor: pointer;
-    background-color: #0b0bd1;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 30;
 }
