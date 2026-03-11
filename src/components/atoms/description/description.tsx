@@ -6,8 +6,8 @@ export const Description = ({
     text: string;
 }) => {
     return (
-        <p className="description">
+        <span>
             {text}
-        </p>
+        </span>
     )
 }
