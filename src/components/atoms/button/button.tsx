@@ -22,7 +22,7 @@ export const Button = ({
                 color: color,
                 backgroundColor: bgColor,
                 height: size + "px",
-                width: 10+size + "px",
+                width: 10 + size + "px",
             }}
         >
             <Icon />
