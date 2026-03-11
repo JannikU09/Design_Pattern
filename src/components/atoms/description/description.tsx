@@ -1,5 +1,3 @@
-import "./description.css";
-
 export const Description = ({
     text,
 }: {
