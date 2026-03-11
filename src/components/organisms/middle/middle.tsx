@@ -7,7 +7,7 @@ import "./middle.css";
 
 export const Middle = () => {
     return (
-        <div className="com">
+        <div className="middle">
             <UserInfo />
             <Img src="https://picsum.photos/250/?random=2" />
             <Interactions />
