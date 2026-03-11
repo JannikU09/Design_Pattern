@@ -1,13 +1,15 @@
 import "./descriptionLine.css";
-import { UserName } from "../../atoms/userName/userName";
-import { Description } from "../../atoms/description/description";
+import "../../atoms/userName/userName.css";
 
 export const DescriptionLine = () => {
     return (
         <div className="descriptionLine">
-            <UserName name="innFactory" />
-            &nbsp;
-            <Description text="Hello this is a very intersting text." />
+            <div>
+                <p>
+                    <span className="userName">innFactory </span>
+                    <span>Hello, this is the most interesting text you will ever read.</span>
+                </p>
+            </div>
         </div>
     )
 }
