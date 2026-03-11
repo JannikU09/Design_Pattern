@@ -1,6 +1,5 @@
 import "./navBar.css";
 import { Button } from "../../atoms/button/button";
-import { Headline } from "../../atoms/headline/headline";
 
 // Icons
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
@@ -16,7 +15,9 @@ export const NavBar = () => {
                         <Button Icon={ArrowBackIcon} color="white" bgColor="#115688" size={20} />
                     </td>
                     <td style={{ width: "70%" }} align="center">
-                        <Headline text="photo" />
+                        <h4 style={{ color: "white" }}>
+                            PHOTO
+                        </h4>
                     </td>
                     <td style={{ width: "15%" }} align="right">
                         <Button Icon={ReplayIcon} color="white" bgColor="#115688" size={20} />
