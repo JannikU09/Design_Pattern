@@ -1,7 +1,6 @@
 .likesline{
     width: 250px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     gap: 5px;
     color: #115688;
