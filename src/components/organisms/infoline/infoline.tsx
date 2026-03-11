@@ -5,20 +5,19 @@ import { time } from "../../../utils/time";
 export const Infoline = () => {
 
     return (
-        <table className="table">
-            <tbody>
-                <tr>
-                    <td align="left" style={{ width: "10%" }}>{time.hour()}:{time.minute()}</td>
-                    <td align="center" style={{ width: "80%" }}>{time.weekday()}, {time.date()}</td>
-                    <td align="right" style={{ width: "10%" }}>
-                        <Battery5BarIcon
-                            sx={{
-                                fontSize: "15px",
-                                rotate: "90deg",
-                            }} />
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div className="infoLine">
+
+            <p
+                style={{margin: "auto 5px"}}
+            >{time.hour()}:{time.minute()}</p>
+            <p>{time.weekday()}, {time.date()}</p>
+            <Battery5BarIcon 
+                sx={{
+                    fontSize: "15px",
+                    rotate: "90deg",
+                    margin: "auto 5px",
+                }}
+            />
+        </div>
     )
 }
