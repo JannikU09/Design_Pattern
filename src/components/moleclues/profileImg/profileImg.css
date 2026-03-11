@@ -1,5 +1,5 @@
-.img {
-    border-radius: 50%;
+.image {
+    border-radius: 25px;
     width: 40px;
     margin: auto 5px;
 }
