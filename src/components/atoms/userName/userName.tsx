@@ -6,8 +6,8 @@ export const UserName = ({
     name: string;
 }) => {
     return (
-        <p className="userName">
+        <span className="userName">
             {name}
-        </p>
+        </span>
     )
 }
