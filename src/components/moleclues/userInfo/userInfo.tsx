@@ -1,6 +1,7 @@
 import { UserName } from "../../atoms/userName/userName";
-import { ProfileImg } from "../../atoms/profileImg/profileImg";
+import { ProfileImg } from "../profileImg/profileImg";
 import "./userInfo.css";
+import "../../atoms/userName/userName.css";
 
 export const UserInfo = () => {
     return (
