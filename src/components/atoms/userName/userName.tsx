@@ -5,7 +5,7 @@ export const UserName = ({
 }: {
     name: string;
 }) => {
-    return(
+    return (
         <p className="userName">
             {name}
         </p>
