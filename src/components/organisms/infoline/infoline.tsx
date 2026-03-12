@@ -6,7 +6,6 @@ export const Infoline = () => {
 
     return (
         <div className="infoLine">
-
             <p
                 style={{margin: "auto 5px"}}
             >{time.hour()}:{time.minute()}</p>
