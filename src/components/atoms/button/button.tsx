@@ -7,11 +7,13 @@ export const Button = ({
     size,
     variant,
     color,
+    bgColor,
 }: {
     Icon: any;
     size: number;
     variant: string;
     color?: string;
+    bgColor?: string;
 }) => {
 
     return (
@@ -20,6 +22,7 @@ export const Button = ({
             id="button"
             style={{
                 color: color,
+                backgroundColor: bgColor,
                 height: size + "px",
                 width: 10 + size + "px",
             }}
