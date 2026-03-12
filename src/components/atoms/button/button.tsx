@@ -4,23 +4,22 @@ import "./button.css";
 
 export const Button = ({
     Icon,
-    color,
-    bgColor,
     size,
+    variant,
+    color,
 }: {
     Icon: any;
-    color: string;
-    bgColor: string;
     size: number;
+    variant: string;
+    color?: string;
 }) => {
 
     return (
         <button
-            className="button"
+            className={`button ${variant}`}
             id="button"
             style={{
                 color: color,
-                backgroundColor: bgColor,
                 height: size + "px",
                 width: 10 + size + "px",
             }}
