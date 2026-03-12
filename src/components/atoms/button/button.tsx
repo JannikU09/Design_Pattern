@@ -11,7 +11,7 @@ export const Button = ({
 }: {
     Icon: any;
     size: number;
-    variant: string;
+    variant: "primary" | "secondary" | "tertiary";
     color?: string;
     bgColor?: string;
 }) => {
