@@ -11,9 +11,9 @@ export const NavBar = () => {
     return (
         <div className="navBar">
 
-            <Button Icon={ArrowBackIcon} color="white" bgColor="#115688" size={20} />
-            <Headline text="PHOTO" size={4}/>
-            <Button Icon={ReplayIcon} color="white" bgColor="#115688" size={20} />
+            <Button Icon={ArrowBackIcon} variant="primary" size={20} />
+            <Headline text="PHOTO" size={4} />
+            <Button Icon={ReplayIcon} variant="primary" size={20} />
         </div>
     )
 }
