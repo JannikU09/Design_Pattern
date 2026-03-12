@@ -9,17 +9,17 @@ import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutline
 export const Interactions = () => {
     return (
         <div className="interactions">
-            <table style={{width: "100%"}}>
+            <table style={{ width: "100%" }}>
                 <tbody>
                     <tr>
-                        <td style={{width: "20%"}}>
-                            <Button Icon={FavoriteBorderOutlinedIcon} color="#a5a7aa" bgColor="white" size={30} />
+                        <td style={{ width: "20%" }}>
+                            <Button Icon={FavoriteBorderOutlinedIcon} variant="tertiary" size={30} />
                         </td>
-                        <td style={{width: "20%"}}>
-                            <Button Icon={ChatBubbleOutlineOutlinedIcon} color="#a5a7aa" bgColor="white" size={30} />
+                        <td style={{ width: "20%" }}>
+                            <Button Icon={ChatBubbleOutlineOutlinedIcon} variant="tertiary" size={30} />
                         </td>
-                        <td style={{width: "60%"}} align="right">
-                            <Button Icon={MoreHorizOutlinedIcon} color="#a5a7aa" bgColor="white" size={30} />
+                        <td style={{ width: "60%" }} align="right">
+                            <Button Icon={MoreHorizOutlinedIcon} variant="tertiary" size={30} />
                         </td>
                     </tr>
 

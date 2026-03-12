@@ -8,7 +8,7 @@ export const Likesline = () => {
     return (
         <div className="likesline">
             <span>
-                <Button Icon={FavoriteIcon} color="#115688" bgColor="white" size={10} />
+                <Button Icon={FavoriteIcon} variant="tertiary" color="#115688" size={10} />
             </span>
             <span>
                 {likes()} Likes
