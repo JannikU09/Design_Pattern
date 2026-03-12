@@ -1,4 +1,10 @@
 img {
     margin: 5px auto;
     border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    box-shadow: 1px 1px 12.5px;
+    transform: rotate(1deg) translate(5px, 5px);
 }
