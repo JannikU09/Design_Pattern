@@ -15,7 +15,7 @@ export const Footer = () => {
             <Button Icon={SearchIcon} variant="secondary" size={40} />
             <Button Icon={InstagramIcon} variant="primary" size={40} />
             <Button Icon={ChatBubbleIcon} variant="secondary" size={40} />
-            <Button Icon={PersonIcon} variant="secondary" color="white" size={40} />
+            <Button Icon={PersonIcon} variant="secondary" color="white" bgColor="#161819" size={40} />
         </div>
     )
 }
