@@ -17,7 +17,7 @@ export const Infoline = () => {
                     margin: "auto 5px",
                 }}
             >
-                <Button Icon={Battery5BarIcon} variant="primary" size={10} />
+                <Button icon={<Battery5BarIcon />} variant="primary" size={10} />
             </div>
         </div>
     )

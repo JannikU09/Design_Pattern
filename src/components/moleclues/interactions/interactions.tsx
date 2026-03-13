@@ -13,13 +13,13 @@ export const Interactions = () => {
                 <tbody>
                     <tr>
                         <td style={{ width: "20%" }}>
-                            <Button Icon={FavoriteBorderOutlinedIcon} variant="tertiary" size={30} />
+                            <Button icon={<FavoriteBorderOutlinedIcon />} variant="tertiary" size={30} />
                         </td>
                         <td style={{ width: "20%" }}>
-                            <Button Icon={ChatBubbleOutlineOutlinedIcon} variant="tertiary" size={30} />
+                            <Button icon={<ChatBubbleOutlineOutlinedIcon />} variant="tertiary" size={30} />
                         </td>
                         <td style={{ width: "60%" }} align="right">
-                            <Button Icon={MoreHorizOutlinedIcon} variant="tertiary" size={30} />
+                            <Button icon={<MoreHorizOutlinedIcon />} variant="tertiary" size={30} />
                         </td>
                     </tr>
 
