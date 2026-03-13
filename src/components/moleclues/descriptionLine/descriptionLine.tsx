@@ -8,9 +8,9 @@ export const DescriptionLine = () => {
         <div className="descriptionLine">
             <div>
                 <p>
-                    <UserName name="innFactory"/>
+                    <UserName name="innFactory" />
                     &nbsp;
-                    <Description text="Hello, this is the most interesting text you will ever read."/>
+                    <Description text="Hello, this is the most interesting text you will ever read." />
                 </p>
             </div>
         </div>

@@ -7,10 +7,10 @@ export const Infoline = () => {
     return (
         <div className="infoLine">
             <p
-                style={{margin: "auto 5px"}}
+                style={{ margin: "auto 5px" }}
             >{time.hour()}:{time.minute()}</p>
             <p>{time.weekday()}, {time.date()}</p>
-            <Battery5BarIcon 
+            <Battery5BarIcon
                 sx={{
                     fontSize: "15px",
                     rotate: "90deg",
