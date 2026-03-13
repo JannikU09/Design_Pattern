@@ -1,9 +1,11 @@
 import "./userName.css";
 
-export const UserName = ({
-    name,
-}: {
+interface UserNameProps {
     name: string;
+}
+
+export const UserName: React.FC<UserNameProps> = ({
+    name,
 }) => {
     return (
         <span className="userName">

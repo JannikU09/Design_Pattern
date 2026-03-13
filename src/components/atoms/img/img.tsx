@@ -1,9 +1,11 @@
 import "./img.css";
 
-export const Img = ({
-    src,
-}: {
+interface ImgProps {
     src: string;
+}
+
+export const Img: React.FC<ImgProps> = ({
+    src,
 }) => {
 
     return (

@@ -1,11 +1,13 @@
 import "./headline.css";
 
-export const Headline = ({
-    text,
-    size,
-}: {
+interface HeadlineProps {
     text: string;
     size: number;
+}
+
+export const Headline: React.FC<HeadlineProps> = ({
+    text,
+    size,
 }) => {
 
     switch (size) {
