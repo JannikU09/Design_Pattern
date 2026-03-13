@@ -1,20 +1,20 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./button.css";
 
-export const Button = ({
-    Icon,
-    size,
-    variant,
-    color,
-    bgColor,
-}: {
-    Icon: any;
+interface ButtonProps {
+    icon: React.ReactNode;
     size: number;
     variant: "primary" | "secondary" | "tertiary";
     color?: string;
     bgColor?: string;
-}) => {
+}
 
+export const Button: React.FC<ButtonProps> = ({
+    icon,
+    size,
+    variant,
+    color,
+    bgColor,
+}) => {
     return (
         <button
             className={`button ${variant}`}
@@ -26,7 +26,7 @@ export const Button = ({
                 width: 10 + size + "px",
             }}
         >
-            <Icon />
+            {icon}
         </button>
     )
 }
