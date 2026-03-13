@@ -1,6 +1,7 @@
 import "./infoline.css";
 import Battery5BarIcon from '@mui/icons-material/Battery5Bar';
 import { time } from "../../../utils/time";
+import { Button } from "../../atoms/button/button";
 
 export const Infoline = () => {
 
@@ -10,13 +11,14 @@ export const Infoline = () => {
                 style={{ margin: "auto 5px" }}
             >{time.hour()}:{time.minute()}</p>
             <p>{time.weekday()}, {time.date()}</p>
-            <Battery5BarIcon
-                sx={{
-                    fontSize: "15px",
+            <div
+                style={{
                     rotate: "90deg",
                     margin: "auto 5px",
                 }}
-            />
+            >
+                <Button Icon={Battery5BarIcon} variant="primary" size={10} />
+            </div>
         </div>
     )
 }
