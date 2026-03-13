@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./button.css";
 
 export const Button = ({
@@ -7,7 +8,7 @@ export const Button = ({
     color,
     bgColor,
 }: {
-    Icon: unknown;
+    Icon: any;
     size: number;
     variant: "primary" | "secondary" | "tertiary";
     color?: string;
